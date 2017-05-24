@@ -1,0 +1,4 @@
+hosts: soldev07
+  tasks:
+  - name: return motd to registered var
+    shell: cat.sh >> /var/tmp/test.out
